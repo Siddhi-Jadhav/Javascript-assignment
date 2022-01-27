@@ -1,0 +1,5 @@
+const lines = str => str.split(".")
+console.log('Original string:')
+str=prompt("Enter line")
+console.log(str)
+console.log(lines(str))
